@@ -1,0 +1,540 @@
+.header{
+    background: black;
+    height: 100%;
+    margin: 0;
+    border-radius: 0 0 56px 56px;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.headerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerLogoImage{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.headerLogo{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.headerText{
+    color: white;
+    align-items: center;
+}
+.headerText1{
+    font-size: 64px;
+    text-align: center;
+    font-family: Keania One;
+}
+
+.headerText2{
+    font-size: 48px;
+    font-family: Jura;
+}
+
+.headerButtons{
+    display: flex;
+    justify-content: center;
+}
+
+.headerBut1{
+    background-color: black;
+    color: white;
+    font-size: 48px;
+    border: 2px solid rgb(255, 255, 255);  
+    font-family: Kurale;
+    padding: 20px 70px;
+    border-radius:0 0 0 100px;
+}
+
+.headerBut2{
+    background-color: black;
+    color: white;
+    font-size: 48px;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: Kurale;
+    padding: 20px 70px;
+    
+}
+
+.headerBut3{
+    background-color: black;
+    color: white;
+    font-size: 48px;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: Kurale;
+    padding: 20px 70px;
+    border-radius: 0 0 100px;
+    
+}
+
+.headerBut1:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(34, 34, 34);
+}
+
+.headerBut2:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(34, 34, 34);
+}
+
+.headerBut3:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(34, 34, 34);
+}
+
+
+
+.contactsBg{
+    margin-top: 0px;
+    background-image: url(./images/bg1.jpg);
+    height: 800px;
+    top: 100px;
+}
+
+.contacts{
+    background-color: #616161;
+    margin: 50px;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-around;
+    border-radius: 15px;
+    opacity: 97%;
+    flex-wrap: wrap;
+}
+
+.contactsLeft{
+    background-color: rgb(38, 38, 38);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 0;
+}
+
+.contactsTextLeft1{
+    font-family: Kurale;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+}
+
+.contactsTextLeft2{
+    font-size: 48px;
+    color: white;
+    font-family: Jura;
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    margin: 0;
+    opacity: 50%;
+
+    
+}
+
+.contactsTextLeft3{
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 26px;
+    margin: 0;
+    margin-bottom: 20px;
+    
+}
+
+.line{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width:800px) {
+    .contactsTextLeft1{
+        font-size: 20px;
+    }
+    .contactsTextLeft2{
+        font-size: 24px;
+        height: 100px;width: 100px;
+    }
+    .contactsTextLeft3{
+        font-size: 20px;
+    }
+    .contactsBut{
+        font-size: 24px;
+        padding: 0;
+    }
+    .contacts{
+        background: none;
+    }
+}
+
+
+.vilka{
+    text-align: center;
+    font-size: 90px;
+    text-wrap: wrap;
+}
+
+.vilkaContainer{
+    padding-bottom: 70px;
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.vilkaPartV1{
+    background: url(./images/hir.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+    height: 340px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+
+.vilkaPartV2{
+    background: url(./images/rentgen-kota-fauna-servis.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+
+.vilkaPartV3{
+    background: url(./images/gera.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+    height: 340px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+
+.vilkaPartV4{
+    background: url(./images/laboratornaya-diagnostika3.webp);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+
+.vilkaUp{
+
+    float: left;
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.vilkaDown{
+    padding-bottom: 0px;
+    float: left;
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.vilkaPartT1{
+    text-align: center;
+    background: url(./images/bgpart.png);
+    color: white;
+    padding-top: 80%;
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 100%;
+    font-size: 30px;
+    font-family: Kurale;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    
+}
+
+.vilkaPartT2{
+    text-align: center;
+    padding: 30px 0px;
+    padding-top: 0;
+    background: url(./images/Shapeup.png);
+    color: white;
+    height: 150px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 0%;
+    font-size: 30px;
+    font-family: Kurale;
+    margin-bottom: 70px;
+    border-radius: 15px;
+}
+
+.aboutContainer{
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.aboutLeft{
+    margin: 50px;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 50%;
+}
+
+.aboutTitle{
+    color: #A5A5A5;
+    font-family: Kurale;
+    font-size: calc(12px + (60 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    text-align: center;
+    height: 100px;
+    margin-top: 0;
+}
+
+.aboutText{
+    color: white;
+    font-family: Kurale;
+    font-size: calc(8px + (12 + 16 * 0.7) * ((100vw - 320px) / 1280));
+}
+
+.aboutRight{
+    align-items: center;
+    margin: 100px;
+    border-radius: 30px;
+}
+
+.aboutImg{
+    border-radius: 30px;
+}
+
+.podvalContainer{
+    background-color: black;
+    display: flex;
+    margin-top: 100px;
+}
+
+.podvalLogo{
+    height: 293px;
+    width: 293px;
+}
+.podvalFav{
+    color: white;
+    font-family: Keania One;
+    font-size: 32px;
+    margin: 32px;
+}
+
+.podvalText{
+    text-decoration: none;
+    color: white;
+    font-family: Kurale;
+    font-size: 32px;
+    margin-bottom: 100px;
+}
+
+.podval2{
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    margin-top: 80px;
+    align-content: space-between;
+}
+
+.podval3{
+    flex-direction: column;
+    color: white;
+    font-family: Jura;
+    font-size: 32px;
+    margin: 60px;
+}
+
+.podvalAdress{
+    margin-bottom: 80px;
+}
+
+.podvalAdm{
+    text-decoration: none;
+    color: #1F1F1F;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.649);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5325325;
+}
+
+.visibleBox{
+    display: none;
+}
+
+.modalPage{
+    background-color: rgb(20, 7, 1);
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.closeModal{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+input{
+    height: 30px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.modalname{
+    color: white;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.modalBut{
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    font-family: Kurale;
+    cursor: pointer;
+    text-align: center;
+    border-style: groove;
+}
+
+
+@media (max-width:1070px) {
+    .headerLogoImage{
+        display: none;
+    }
+    .headerButtons{
+        display: none;
+    }
+    .contactsLeft{
+        width: auto;
+        height: auto;
+    }
+}
+
+
+@media (max-width:1180px) {
+    .podval2{
+        display: none;
+    }
+}
+
+@media (max-width:800px) {
+    .podvalLogo{
+        height: 200px;
+        width: 200px;
+    }
+    .podvalFav{
+        font-size: 20px;
+    }
+    .podvalAdress{
+        font-size: 20px;
+    }
+    .podvalNumber{
+        font-size: 20px;
+    }
+    .podval3{
+        margin: 30px;
+    }
+    .aboutImg{
+        height: 340px;
+        width: 320px;
+    }
+    .vilka{
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width:650px) {
+    .headerText1{
+        font-size: 40px;
+    }
+    .headerText2{
+        font-size: 30px;
+    }
+    .podval3{
+        margin: 0;
+    }
+    .cat{
+        height: 350px;
+        width: 300px;
+    }
+    .catt{
+        height: 300px;
+        width: 350px;
+    }
+    .vilkaPartV1{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .vilkaPartV3{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

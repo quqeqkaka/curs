@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
+    <script defer src="./JavaScript/adm.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Keania+One&family=Kurale&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="headerContent">
+                    <div class="headerLogo">
+                        <img class="headerLogoImage" src="./images/logo.jpg" alt="logo" width="89px" height="89px">
+                    </div>
+                    <div class="headerText">
+                        <p class="headerText1">DR.BEHEMOTH</p>
+                        <p class="headerText2">Сеть ветеринарных клиник</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="headerButtons">
+        <a class="headerBut1" href="#cont">Контакты</a>
+        <a class="headerBut2" href="#vilka">Услуги</a>
+        <a class="headerBut3" href="#about">О нас</a>
+    </div>
+      </div>
+    </header>
+    <section>
+        <div class="contactsContainer">
+            <div class="contactsBg">
+                <div class="contacts">
+                    <div class="contactsLeft">
+                        <p class="contactsTextLeft2" id="cont">контакты для связи</p>
+                        <p class="contactsTextLeft1">ул. Карла Маркса д. 10</p>
+                        <p class="contactsTextLeft3">+7966 666 66-66</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <img class="line" src="./images/line.png" alt="">
+        <p class="vilka" id="vilka">Услуги для ваших питомцев</p>
+        <img class="line" src="./images/line.png" alt="">
+        <div class="vilkaContainer">
+            <div class="vilkaUp">
+                <img class="catt" src="./images/catt.png" alt="" height="400" width="450">
+                <div class="vilkaPartV1">
+                    <div class="vilkaPartT2">ветеринарная хирургия</div>
+                </div>
+                <div class="vilkaPartV2">
+                    <div class="vilkaPartT1">рентген</div>
+                </div>
+            </div>
+            <div class="vilkaDown">
+                <div class="vilkaPartV3">
+                    <div class="vilkaPartT2">прививки</div>
+                </div>
+                <div class="vilkaPartV4">
+                    <div class="vilkaPartT1">экспресс-диагностика</div>
+                </div>
+                <img class="cat" src="./images/cat.jpg" alt="" height="447px" width="400px">
+            </div>
+        </div>
+        <img class="line" src="./images/line.png" alt="">
+    </section>
+    <section>
+        <div class="aboutContainer">
+            <div class="aboutLeft">
+                <h1 class="aboutTitle" id="about">О НАС</h1>
+                <p class="aboutText">Ветеринарная клиника "Доктор Бегемот" была создана 15 мая 2019 года и отличалась от всех прочих. Её стены украшали коллажи из газетных вырезок и карикатур на тему животных, а на рецепшене посетителей встречал говорящий чёрный кот, вылитый Бегемот из романа. Помимо этого, в зоне ожидания посетителям предложено огромное количество книг, произведений Михаила Афанасьевича Булгакова, в числе которых "Мастер и Маргарита", "Морфий" и т.д.</p>
+            </div>
+            <div class="aboutRight">
+                <img class="aboutImg" src="./images/cotek.jpg" alt="" height="422px" width="401px">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="podvalContainer">
+            <div class="podval1">
+                <p class="podvalFav">2024©”Dr.Behemoth”</p>
+                <img class="podvalLogo" src="./images/logo.jpg" alt="">
+            </div>
+            <div class="podval2">
+                <a class="podvalText" href="">Главная</a>
+                <a class="podvalText" href="#cont">Контакты</a>
+            </div>
+            <div class="podval2">
+                <a class="podvalText" href="#vilka">Услуги</a>
+                <a class="podvalText" href="#about">О нас</a>
+            </div>
+            <div class="podval3">
+                <p class="podvalAdress">Г. Балашиха, ул. 
+                    Карла Маркса д.10</p>
+                <p class="podvalNumber">+7966 666 66-66</p>
+                <a class="podvalAdm" href="#" id="openModal">страница оператора</a>
+            </div>
+        </div>
+    </footer>
+    <div class="modal visibleBox" id="modal">
+        <div class="modalPage">
+            <img class="closeModal" src="./images/close.png" alt="" id="closeModal" height="30px">
+            <h1 class="modalname">Введите пароль</h1>
+            <input type="text" placeholder="Пароль...">
+            <a class="modalBut" href="./adm.html">Подтвердить</a>
+        </div>
+    </div>
+</body>
+</html>

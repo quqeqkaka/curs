@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>BehemothAdm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./adm.css">
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
+    <script defer src="./JavaScript/adm.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="dashboardheader">
+            <h1 class="dashboardheaderlogo">BEHEMOTH CLIENT INFO</h1>
+        </header>
+        <nav class="sidebarmenu">
+            <div class="sidebarmenuitems">
+                <div class="sidebarmenuitem">
+                    <a href="./index.html" class="sidebarmenuitemtitle">
+                        <span>Основной сайт</span>
+                    </a>
+                    <div class="sidebarmenusubitems">
+                        <div class="sidebarmenusubitem">
+                            <a href="#">
+                                <span>Добавить информацию</span>
+                            </a>
+                        </div>
+                        <div class="sidebarmenusubitem">
+                            <a href="#">
+                                <span>Список оператор</span>
+                            </a>
+                        </div>
+                        <div class="sidebarmenusubitem">
+                            <a href="#">
+                                <span>Клиенты</span>
+                            </a>
+                        </div>
+                        <div class="sidebarmenusubitem">
+                            <a href="#">
+                                <span>Статистика</span>
+                            </a>
+                        </div>
+                        <div class="sidebarmenusubitem">
+                            <a href="#">
+                                <span>Настройки</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main class="maincontent">
+            <div class="maininfo">Добавить нового клиента</div>
+            <a class="mainbut" href="#" id="openModal"></a>
+        </main>
+            <div class="modal visibleBox" id="modal">
+                <div class="modalpage">
+                    <img class="modalpng" src="./images/close.png" alt="" width="30px" id="closeModal">
+                    <h1 class="modalname">Заполните данные</h1>
+                    <input type="text" placeholder="ФИО">
+                    <input type="text" placeholder="тип питомца">
+                    <input type="text" placeholder="порода">
+                    <input type="text" placeholder="контактный номер">
+                    <input class="input" type="text" placeholder="кратко про обращение">
+                    <button class="modalbut">Сохранить</button>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
